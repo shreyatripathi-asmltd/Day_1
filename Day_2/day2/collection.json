@@ -1,0 +1,20 @@
+{
+  "machine_name": "Excavator",
+  "id": 101,
+  "weight_tons": 21.5,
+  "parts": ["engine", "hydraulics", "tracks"],
+  "maintenance_records": [
+    {"date": "2025-01-15", "status": "oil_changed"},
+    {"date": "2025-04-10", "status": "hydraulic_fluid_checked"}
+  ],
+  "specs": [
+    "Tier-4 Engine",
+    {"horsepower": 210, "fuel_type": "diesel"},
+    [500, 1000, 1500]
+  ],
+  "performance": {
+    "fuel_efficiency": [6.5, 7.0, 7.2],
+    "load_capacity": [1.5, 2.0, 2.3],
+    "peak_output": {"rpm": 1800, "torque_nm": 1200}
+  }
+}
